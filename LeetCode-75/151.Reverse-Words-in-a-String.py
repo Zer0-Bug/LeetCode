@@ -55,7 +55,7 @@ class Solution(object):
                     i += 1
                     if i == len(s):
                         break 
-                    
+
                 new_list.append(tmpStr)
                 idx += 1
         
