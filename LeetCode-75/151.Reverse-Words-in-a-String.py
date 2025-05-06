@@ -43,15 +43,19 @@ class Solution(object):
         i, idx = 0, 0
 
         while i < len(s):
+
             if s[i] == " ":
                 i += 1
+
             else:
                 tmpStr = ""
+
                 while s[i] != " ":
                     tmpStr += s[i]   
                     i += 1
                     if i == len(s):
                         break 
+                    
                 new_list.append(tmpStr)
                 idx += 1
         
